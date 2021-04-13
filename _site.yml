@@ -1,0 +1,17 @@
+name: "."
+title: "Karla Jarecke"
+description: |
+  Karla Jarecke
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Hello"
+      href: index.html
+    - text: "Publications"
+      href: about.html
+    - text: "Teaching"
+      href: teaching.html
+    - icon: fab fa-github
+      href: https://github.com/jareckek
+output: distill::distill_article
+theme: theme.css
